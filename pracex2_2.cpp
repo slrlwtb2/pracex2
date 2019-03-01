@@ -22,7 +22,7 @@ int main(){
 	string line;
 	float y[]={};
 	while(getline(source,line)){
-		atof(line.c_str());
+		cout<<atof(line.c_str())<<endl;
 
 	}
 	
